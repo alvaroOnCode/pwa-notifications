@@ -1,0 +1,29 @@
+{
+    "name": "PAW Notifications",
+    "short_name": "PWA N",
+    "start_url": "/?utm_source=homescreen",
+    "background-color": "white",
+    "theme_color": "#00aaff",
+    "orientation": "any",
+    "display": "standalone",
+    "dir": "ltr",
+    "lang": "en-US",
+    "description": "A very simple example of PWA.",
+    "scope": "/",
+    "serviceworker": {
+        "src": "./js/sw.js",
+        "scope": "/"
+    },
+    "icons": [
+        {
+            "src": "./favicons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./favicons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+}
